@@ -180,7 +180,7 @@
     Открыта страница игры "rect_area"
   test-data: |
     Проверка сброса кода до исходного шаблона
-  steps:
+  steps: |
     - Вводим код :
     const _ = require("lodash");
     const R = require("rambda");
@@ -200,7 +200,7 @@
     Открыта страница игры "rect_area"
   test-data: |
     Проверка решения
-  steps:
+  steps: |
     - Вводим код
     const _ = require("lodash");
     const R = require("rambda");
